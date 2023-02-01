@@ -38,7 +38,7 @@ try:
   
     else:
          back_from_function = get_fruity_vice_data(fruit_choice)
-          streamlit.dataframe(function)
+         streamlit.dataframe(function)
 
 except urlerror as e:
        streamlit.error()
